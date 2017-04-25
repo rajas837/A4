@@ -18,8 +18,8 @@
             <select class="form-control" id="power" required>
                 <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
             </select>
-        </div><br>
-        <button type="button" class="btn btn-default" (click)="newHero(); heroForm.reset()">New Hero</button><br>
+        </div>
+        <!--<button type="button" class="btn btn-default" (click)="newHero(); heroForm.reset()">New Hero</button><br>-->
         <br>
         <button type="submit" class="btn btn-success" [disabled]="!heroForm.form.valid">Submit</button>
     </form>

@@ -19,7 +19,7 @@ export class HeroFormComponent {
   onSubmit() { this.submitted = true; }
 
   newHero(){
-      this.model = new Hero(43, 'Ragu', 'Super Flexible')
+      this.model = new Hero(43, 'Ragu', 'Super Flexible1')
   }
   // TODO: Remove this when we're done
   //get diagnostic() { return JSON.stringify(this.model); }
